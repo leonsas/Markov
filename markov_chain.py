@@ -33,4 +33,4 @@ class Markov:
 			debug_chain.append((key,word))
 			
 		print sentence
-		print debug_chain	
+		#print debug_chain	
