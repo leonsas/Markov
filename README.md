@@ -9,3 +9,7 @@ To test it, run the following from a python console:
     gen=Markov()
     gen.generate_chain()
     gen.generate_sentence()
+    
+To change the length of the generated text, simply pass the desired length to the generate_sentence() method:
+
+    gen.generate_sentence(50)
